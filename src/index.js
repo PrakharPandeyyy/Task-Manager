@@ -21,5 +21,5 @@ app.use(taskRouter)
 
 
 app.listen(port,(req,res)=>{
-    console.log("Server is Up on Port" + port)
+    console.log(`Server is Up on Port :${port}`)
 })
